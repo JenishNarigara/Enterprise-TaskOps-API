@@ -1,0 +1,13 @@
+# 1. Virtual Environment (Tera Linux environment folder)
+venv/
+lib/
+bin/
+include/
+
+# 2. Environment Variables & Secrets (Sensitive DB credentials/JWT secret keys)
+.env
+*.env
+
+# 3. Python Cache Files (Auto-generated files)
+__pycache__/
+*.pyc
